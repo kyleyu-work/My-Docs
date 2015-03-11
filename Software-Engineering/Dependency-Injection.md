@@ -96,7 +96,7 @@ Dependency injection can be done in three ways:
 * Property injection
 
 <br>
-##### Constructor Injection
+#### Constructor Injection
 
 ```java
 class AppPoolWatcher
@@ -125,7 +125,7 @@ This Constructor Injection will let the dependent class use one concrete class t
 
 <br>
 
-##### Method Injection
+#### Method Injection
 ```java
 class AppPoolWatcher
 {
@@ -148,7 +148,7 @@ It is much more flexible now. But the binding step and the method invocation ste
 
 <br>
 
-##### Property Injection (Setter Injection)
+#### Property Injection (Setter Injection)
 
 ```java
 class AppPoolWatcher
